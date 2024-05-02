@@ -22,7 +22,7 @@ body {
             rgba(20, 20, 20, 0) 100%
         ),
         linear-gradient(
-            234deg,
+            20deg,
             rgba(10, 10, 10, 1) 25%,
             rgba(10, 10, 10, 0.77) 50%,
             rgba(10, 10, 10, 0.4) 75%,
@@ -148,4 +148,16 @@ body {
     color: transparent;
     font-weight: bold;
 }
-    
+
+.under-download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.under-download-button:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
